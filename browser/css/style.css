@@ -1,0 +1,192 @@
+.container {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.border-4 {
+    border-width: 4px !important;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    #lv1>.canvas-container {
+        width: 33%;
+        height: 33%;
+    }
+    #lv2>.canvas-container {
+        width: 45%;
+        height: 45%;
+    }
+    #lv3>.canvas-container {
+        width: 45%;
+        height: 45%;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 100%;
+    }
+    #lv1>.canvas-container {
+        width: 33%;
+        height: 33%;
+    }
+    #lv2>.canvas-container {
+        width: 45%;
+        height: 45%;
+    }
+    #lv3>.canvas-container {
+        width: 45%;
+        height: 45%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 100%;
+    }
+}
+
+#lv1 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#lv2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#lv3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#lv1>.canvas-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#lv2>.canvas-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#lv3>.canvas-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.radio-wrapper {
+    margin: 10px;
+}
+
+input[type='radio'] {
+    transform: scale(2);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+label {
+    font-size: 150%;
+    position: relative;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+button {
+    font-size: 150%;
+    border: 1px solid black;
+    background-color: #ededed;
+    padding: 5px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.selected {
+    border: 5px solid black;
+}
+
+button.active {
+    background-color: #888;
+}
+
+.color {
+    color: white;
+}
+
+.color1 {
+    background-color: red;
+}
+
+#red {
+    background-color: red;
+}
+
+#green {
+    background-color: green;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#black {
+    background-color: black;
+}
+
+#darkgrey {
+    background-color: rgb(77, 77, 77);
+}
+
+#grey {
+    background-color: rgb(105, 105, 105);
+}
+
+#lightgrey {
+    background-color: rgb(167, 167, 167);
+}
+
+#white {
+    background-color: white;
+    color: black;
+}
+
+#eraser {
+    background-color: white;
+    color: black;
+}
+
+
+/* 
+#canvas {
+    border: 1px solid;
+    width: 460px;
+    height: 365px;
+} */

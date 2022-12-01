@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <!--　 fabric.jsの読込み　-->
+    <script type="text/javascript" src="./js/fabric.min.js"></script>
+</head>
+
+<body>
+    <div id="wrap-all">
+        <button id="black" class="color selected">Black</button>
+        <button id="darkgrey" class="color">Dark</button>
+        <button id="grey" class="color">Gray</button>
+        <button id="lightgrey" class="color">Light</button>
+        <button id="white" class="color">White</button>
+        <button id="red" class="color">Red</button>
+        <button id="orange" class="color">Orange</button>
+        <button id="blue" class="color">Blue</button>
+        <button id="eraser" class="color">ERASER</button>
+        <div class="radio-wrapper">
+            <label><input type="radio" id="5px" class="selectLineWidth" name="lineWidth" value="5" checked>5px</label>
+            <label><input type="radio" id="10px" class="selectLineWidth" name="lineWidth" value="10">10px</label>
+            <label><input type="radio" id="20px" class="selectLineWidth" name="lineWidth" value="20">20px</label>
+            <label><input type="radio" id="40px" class="selectLineWidth" name="lineWidth" value="40">40px</label>
+        </div>
+        <div class="container table-responsive">
+            <!--　canvas要素を用意　-->
+            <div id="lv1" class="row border-bottom border-4 border-secondary"></div>
+            <div id="lv2" class="row border-bottom border-4 border-secondary"></div>
+            <div id="lv3" class="row border-bottom border-4 border-secondary"></div>
+        </div>
+        <script type="text/javascript " src="./js/script.js ">
+        </script>
+</body>
+
+</html>
